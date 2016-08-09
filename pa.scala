@@ -1,1 +1,5 @@
-args.foreach((arg: String) => println(arg))
+def greet(name: String) = {
+  println("Hello, "+ name + "!!")
+}
+
+args.foreach(greet)
